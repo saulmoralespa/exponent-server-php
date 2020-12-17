@@ -1,0 +1,27 @@
+{
+    "name": "saulmoralespa/exponent-server-php",
+    "description": "Exponent PHP",
+    "keywords": ["expo", "exponent", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saul Morales Pacheco",
+            "email": "info@saulmoralespa.com",
+            "homepage": "https://saulmoralespa.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saulmoralespa\\Exponent\\": "src/"
+        }
+    }
+}
